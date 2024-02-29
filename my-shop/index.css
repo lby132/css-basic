@@ -82,7 +82,7 @@ a {
 .mainMenu ul li {
     list-style: none;
     display: block;
-    
+
 }
 
 .mainMenu ul li a {
@@ -232,4 +232,46 @@ a {
 
 .item .textBox__price {
     transition: all 0.4s ease-in-out 0.15s;
+}
+
+@media screen and (max-width: 767px) {
+    /* mobile */
+    .mainBanner {
+        height: 160px;
+        margin-bottom: 0;
+    }
+
+    .mainBanner .text {
+        font-size: 24px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .mainMenu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .writeBtnBox {
+        display: none;
+    }
+
+    .itemWrap {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* tablet */
 }
