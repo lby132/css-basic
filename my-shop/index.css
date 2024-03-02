@@ -281,14 +281,36 @@ a {
         opacity: 1;
         transform: translateY(0px);
     }
-    
-    .textBox__name {
-
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     /* tablet */
+    .item {
+        overflow: visible;
+        border: 1px solid #dddddd;
+    }
+
+    .textBox {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .textBox p {
+        color: black;
+    }
+    
+    .textBox__name {
+        font-size: 18px;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+    .textBox__price {
+        font-size: 12px;
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @media screen and (min-width: 1024px) {
